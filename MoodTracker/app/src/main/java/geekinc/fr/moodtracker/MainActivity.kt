@@ -1,11 +1,10 @@
 package geekinc.fr.moodtracker
 
-import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
-import android.widget.Button
+import android.widget.AdapterView
 import android.widget.GridView
+import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
 
@@ -15,5 +14,8 @@ class MainActivity : AppCompatActivity() {
 
         val gridView = findViewById<GridView>(R.id.gridView)
         gridView.adapter = MoodAdapter(this)
+        gridView.onItemClickListener = AdapterView.OnItemClickListener {
+            parent, v, position, id -> Toast.makeText(this, "$position", Toast.LENGTH_LONG).show()
+        }
     }
 }
