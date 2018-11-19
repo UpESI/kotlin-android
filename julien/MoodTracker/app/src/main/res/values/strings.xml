@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">MoodTracker</string>
+    <string name="emoji_joy">😀</string>
+    <string name="emoji_cry">😭</string>
+    <string name="emoji_wow">😲</string>
+    <string name="joy_txt">Yeah !</string>
+    <string name="cry_txt">Snif !</string>
+    <string name="wow_txt">WOW !</string>
 </resources>
