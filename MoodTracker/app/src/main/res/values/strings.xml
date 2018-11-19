@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Mood Tracker</string>
+    <string name="mood_happy">😁</string>
+    <string name="mood_cry">😭</string>
+    <string name="mood_awesome">😎</string>
+    <string name="mood_love">😍</string>
+    <string name="mood_hurt">😣</string>
+    <string name="mood_sad">☹️</string>
+    <string name="mood_happy_text">Vous etes heureux</string>
+    <string name="mood_cry_text">Pleure pas comme ca</string>
+    <string name="mood_awesome_text">Ok DIEU</string>
+    <string name="mood_love_text">L\'amour brille sous les etoiles</string>
+    <string name="mood_hurt_text">Aie</string>
+    <string name="mood_sad_text">Ohhh....</string>
 </resources>
