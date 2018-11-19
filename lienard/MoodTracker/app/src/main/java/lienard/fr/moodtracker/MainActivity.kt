@@ -1,4 +1,4 @@
-package julien.fr.moodtracker
+package lienard.fr.moodtracker
 
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
@@ -12,13 +12,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
-    fun selectMood (view: View) {
-        val intent: Intent = Intent(this, MoodActivity::class.java).apply {
-            putExtra("selectedMood", view.tag.toString())
+    fun changeActivity(view: View) {
+        val intention = Intent(this, EmotionActivity::class.java).apply {
+            putExtra("emotion", view.tag.toString())
         }
 
-        println(view.tag.toString())
-
-        startActivity(intent)
+        startActivity(intention)
     }
 }

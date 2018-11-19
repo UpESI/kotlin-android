@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MoodTracker</string>
+    <string name="main_btn_sad">Sad</string>
+    <string name="main_btn_happy">Happy</string>
+    <string name="main_btn_neutral">Neutral</string>
+    <string name="emotion_sad">😥</string>
+    <string name="emotion_happy">🤗</string>
+    <string name="emotion_neutral">😐</string>
+    <string name="emotion_sad_text">Sad !</string>
+    <string name="emotion_neutral_text">neutral T_T</string>
+    <string name="emotion_happy_text">Happy !</string>
+</resources>

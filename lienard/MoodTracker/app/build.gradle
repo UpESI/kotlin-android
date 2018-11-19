@@ -7,8 +7,8 @@ apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "julien.fr.moodtracker"
-        minSdkVersion 26
+        applicationId "lienard.fr.moodtracker"
+        minSdkVersion 28
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
