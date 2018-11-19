@@ -29,3 +29,11 @@ Ici ce trouve la version du JDK utilisé.
 Le nom de notre package se traduit par le même structure de dossier / sous-dossier
 * Ex: fr.julien.test.MaClasse
 * = /src/kotlin/fr/julien/test/MaClass.kt
+
+## Intention
+
+Un "*Intent*" va permettre de transmettre des données d'une activité à une autre.
+
+### Meta data android:name="android.support.PARENT_ACTIVITY"
+
+Va permettre de créer la navigation entre deux activitées. (la petite flèche de retour dans la top bar).
