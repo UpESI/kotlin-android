@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">UpESI</string>
+    <string name="name_placeholder">Entrez votre nom</string>
+    <string name="send_button">Envoyer</string>
+    <string name="textview">TextView</string>
+    <string name="button">Button</string>
+</resources>
