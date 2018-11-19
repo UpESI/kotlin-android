@@ -5,16 +5,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseAdapter
 import android.widget.ImageView
+import geekinc.fr.moodtracker.moods.moodThumbs
 
-private val moodThumbs = arrayOf<Int>(
-    R.drawable.angry,
-    R.drawable.blushed,
-    R.drawable.happy,
-    R.drawable.joy,
-    R.drawable.kiss,
-    R.drawable.lol,
-    R.drawable.tongue
-)
 
 class MoodAdapter(private val context: Context) : BaseAdapter() {
 
