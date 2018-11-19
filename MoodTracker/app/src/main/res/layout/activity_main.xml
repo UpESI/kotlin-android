@@ -6,37 +6,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".MainActivity" tools:layout_editor_absoluteY="81dp">
-
-    <Button
-            android:text="@string/mood_awesome"
-            android:layout_height="wrap_content"
-            android:id="@+id/awesome_button"
-            android:onClick="selectMood"
-            android:layout_width="wrap_content" app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintBaseline_toBaselineOf="@+id/hurt_button"
-            android:layout_marginStart="16dp"/>
-    <Button
-            android:text="@string/mood_cry"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/cry_button"
-            android:onClick="selectMood"
-            app:layout_constraintStart_toStartOf="@+id/awesome_button"
-            app:layout_constraintBaseline_toBaselineOf="@+id/happy_button"/>
-    <Button
-            android:text="@string/mood_happy"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/happy_button"
-            android:onClick="selectMood"
-            app:layout_constraintTop_toBottomOf="@+id/awesome_button"
-            app:layout_constraintStart_toEndOf="@+id/awesome_button"/>
-    <Button
-            android:text="@string/mood_hurt"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/hurt_button"
-            android:onClick="selectMood"
-            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="16dp"
-            app:layout_constraintStart_toEndOf="@+id/awesome_button"/>
+    <GridView
+            android:id="@+id/gridView"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:numColumns="auto_fit"
+            android:columnWidth="120dp"
+            android:verticalSpacing="@dimen/default_gap"
+            android:gravity="center"/>
 </android.support.constraint.ConstraintLayout>
