@@ -11,3 +11,8 @@ val moodThumbs = arrayOf(
     R.drawable.lol,
     R.drawable.tongue
 )
+
+class MoodInformations {
+    val moodDrawable = moodThumbs
+    val moodName = arrayOf("Angry", "Blushed", "Happy", "Joy", "Kiss", "LoL", "Tongue")
+}

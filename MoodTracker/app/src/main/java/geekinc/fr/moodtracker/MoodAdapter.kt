@@ -5,6 +5,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseAdapter
 import android.widget.ImageView
+import geekinc.fr.moodtracker.moods.MoodInformations
 import geekinc.fr.moodtracker.moods.moodThumbs
 
 
@@ -20,6 +21,7 @@ class MoodAdapter(private val context: Context) : BaseAdapter() {
                          convertView: View?,
                          parent: ViewGroup?): View {
         val image: ImageView
+        val moodInformations = MoodInformations()
         if(convertView == null) {
             image = ImageView(context)
             image.layoutParams = ViewGroup.LayoutParams(100, 100)
@@ -29,7 +31,7 @@ class MoodAdapter(private val context: Context) : BaseAdapter() {
             image = convertView as ImageView
         }
 
-        image.setImageResource(moodThumbs[position])
+        image.setImageResource(moodInformations.moodDrawable[position])
         return image
 
     }

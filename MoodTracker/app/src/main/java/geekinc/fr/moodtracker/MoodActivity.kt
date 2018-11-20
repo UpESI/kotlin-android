@@ -12,6 +12,9 @@ class MoodActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_mood)
 
+        setSupportActionBar(findViewById(R.id.toolbar))
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+
         val moodIndex = intent.getIntExtra(ExtraActions.EXTRA_INT.toString(), 0)
 
         val moodImageView = findViewById<ImageView>(R.id.mood_image_view)
