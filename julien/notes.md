@@ -37,3 +37,18 @@ Un "*Intent*" va permettre de transmettre des données d'une activité à une au
 ### Meta data android:name="android.support.PARENT_ACTIVITY"
 
 Va permettre de créer la navigation entre deux activitées. (la petite flèche de retour dans la top bar).
+
+## Adapter
+
+Permet de créer une layout personnalisé.
+
+## Permission
+
+Pour demander une permission à Android, il faut ajouter une <users-permission> dans le manifest
+
+
+## methode de stockage fichier
+
+### Internal & External storage
+
+### Shared Preferences
