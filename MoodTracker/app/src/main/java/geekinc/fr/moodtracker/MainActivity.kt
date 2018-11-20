@@ -1,8 +1,10 @@
 package geekinc.fr.moodtracker
 
+import android.content.Context
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Environment
 import android.widget.AdapterView
 import android.widget.GridView
 import geekinc.fr.moodtracker.extras.ExtraActions
@@ -20,6 +22,7 @@ class MainActivity : AppCompatActivity() {
             val moodIntent = Intent(this, MoodActivity::class.java).apply {
                 putExtra(ExtraActions.EXTRA_INT.toString(), position)
             }
+            
             startActivity(moodIntent)
         }
     }
